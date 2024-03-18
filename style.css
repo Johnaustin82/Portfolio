@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("images/backphoto.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Home {
+    color: tan;
+    text-align: left;
+    font-family: fantasy;
+    font-size: larger;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+#Home img {
+    width: 240x;
+    height: 350px;
+}
+
+#About {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#Skills {
+    color: beige;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bolder;
+    margin-left: 30px;
+}
+
+#projects {
+    color: beige;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: larger;
+}
+
+#projects img {
+    width: 300px;
+    height: 200px;
+}
+
+#contact h2 {
+    color: beige;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+label {
+    color: beige;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: dotted;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bolder;
+}
+ #name {
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: gray;
+}
+
+#email {
+    width: 40%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: gray;
+}
+
+#message {
+    width: 40%;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+.btn {
+    padding: 10px 15px;
+    background-color: yellow;
+    color: black;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    padding: 10px 15px;
+    background-color: orange;
+    color: beige;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
